@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inscription/reclamation</title>
+</head>
+
+<body>
+    <ul>
+        <a href="acceuil.html"> <li>Mission Militaire</li></a>
+        <a href="inscription.html"> <li>Inscription/réclamation</li></a>
+            <a href="equipement militaire.html" > <li>Equipement militaire</li></a>
+      
+          </ul>
+
+    <h1>Formulaire d'inscription ou réclamation</h1>
+    <form>
+        <table>
+            <tr>
+
+                <td><label for="nom" id="nom">Nom:</label></td>
+                <td><input type="text" name="nom" id="nom"></td>
+            </tr>
+            <tr>
+
+                <td><label for="prenom" id="prenom">Prenom:</label></td>
+                <td><input type="text" name="prenom" id="prenom"></td>
+            </tr>
+            <tr>
+
+                <td><label for="grade" id="nom">Grade:</label></td>
+                <td><select name="grade" id="grade">
+                        <option>soldat</option>
+                        <option>Sergent</option>
+                        <option>Lieutenant</option>
+
+                    </select></td>
+            </tr>
+            <tr>
+                <td><label for="message" id="message">Email:</label></td>
+
+                <td> <input type="email" id="email" name="email" placeholder="exemple@domaine.com" required></td>
+            </tr>
+            <tr>
+                
+                <td><label for="message" id="message">Message:</label></td>
+                <td><textarea cols="40" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="fichier" id="fichier">joindre un fichier:</label></td>
+
+                <td> <input type="file" id="choisirFichier" name="fichier" accept=".jpg, .jpeg, .png"></td>
+
+           
+        </table>
+        <input type="submit" value="envoyer">
+
+
+
+
+    </form>
+</body>
+
+</html>
